@@ -4,51 +4,51 @@ using namespace std;
 int main ()
 {
 
-char op;
-float angka1; 
-float angka2;
-char  lagi;
+char oprator;
+float number1; 
+float number2;
+char  again;
 char input;
 
 do{
-cout << "masukkan angka 1" << endl;
-cin >> angka1;
+cout << "input number 1" << endl;
+cin >> number1;
 
-cout << "masukkan angka 2" << endl;
-cin >> angka2;
+cout << "input number 2" << endl;
+cin >> number2;
 
-cout << "pilih operator" << endl;
+cout << "operator" << endl;
 cout << "-" << endl;
 cout << "/" << endl;	
 cout << "*" << endl;
-cin >> op;
+cin >> oprator;
 
 switch(op)	{
 	case'+':
-		cout << angka1 << "+" << angka2 << "=" << angka1 + angka2 << endl;
+		cout << number1 << "+" << number2 << "=" << number1 + number2 << endl;
 		break;
 	case'-':
-		cout << angka1 << "-" << angka2 << "=" << angka1 - angka2 << endl;
+		cout << number1 << "-" << number2 << "=" << number1 - number2 << endl;
 		break;
 	case'/':
-		cout << angka1 << "/" << angka2 << "=" << angka1 / angka2 << endl;
+		cout << number1 << "/" << number2 << "=" << number1 / number2 << endl;
 		break;
 	case'*':
-		cout << angka1 << "*" << angka2 << "=" << angka1 * angka2 << endl;
+		cout << number1 << "*" << number2 << "=" << number1 * number2 << endl;
 		break;
 
 	default:
-		cout << "gada kek gini anjeng" << endl;
+		cout << "operator not found" << endl;
 	break;		
 	}
 	
 		
-		cout << "apakah ada lagi yang mau di hitung? (y/n) " << endl;
-		cin >> lagi;
+		cout << "can i help you again? (y/n) " << endl;
+		cin >> again;
 	
 
-	}while (lagi == 'Y' || lagi == 'y');
-	cout << "terimakasih" << endl;
+	}while (again == 'Y' || again == 'y');
+	cout << "thanks!!" << endl;
 	
 
 		
