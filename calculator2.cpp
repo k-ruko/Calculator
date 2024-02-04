@@ -18,7 +18,7 @@ int main()
 	
 	
 	cout << "chosse operator : " << endl;
-	
+	cin >> op;
 	switch(op)
 	{ 
 		case('+'):
