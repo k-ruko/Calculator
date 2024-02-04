@@ -7,13 +7,13 @@ int main()
 	char op;
 	
 	
-		cout << "  " << endl;
+		cout << "angka 1   " << endl;
 		cin >> num1;
 		
-		cout << "   " << endl; 
+		cout << "angka 2:    " << endl; 
 		cin >> num2;
 		
-		cout << "  " << endl;
+		cout << "angka 3:   " << endl;
 		cin >> num3;
 	
 	
